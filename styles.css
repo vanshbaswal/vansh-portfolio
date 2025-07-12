@@ -336,8 +336,8 @@ body {
 }
 
 .hero-image-frame {
-    width: 260px;
-    height: 260px;
+    width: 320px;
+    height: 320px;
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 0 8px 32px 0 rgba(50, 50, 100, 0.25), 0 2px 8px 0 rgba(0,0,0,0.10);
@@ -356,6 +356,8 @@ body {
     border: 4px solid #fff;
     box-shadow: 0 4px 24px 0 rgba(50, 50, 100, 0.15);
     transition: transform 0.3s;
+    image-rendering: auto;
+    filter: none !important;
 }
 
 .hero-image-frame:hover .hero-profile-img {
@@ -1174,6 +1176,10 @@ section {
     .hero-image {
         margin-left: 0;
         margin-top: 2rem;
+    }
+    .hero-image-frame {
+        width: 200px;
+        height: 200px;
     }
 }
 
